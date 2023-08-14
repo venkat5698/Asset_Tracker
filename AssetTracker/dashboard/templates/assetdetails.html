@@ -1,0 +1,144 @@
+<html>
+    <head style="color:rgb(226, 26, 26);">Asset Management</head>
+    <style>
+    body {background-color: powderblue;}
+    h1   {color: blue;}
+    p    {color: red;}
+    </style>
+    <style>
+    h1 {
+        color: blue;
+        font-family: verdana;
+        font-size: 300%;
+    }
+    p {
+        color: red;
+        font-family: courier;
+        font-size: 100%;
+    }
+    </style>
+    <style>
+    a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+    </style>
+    <style>
+    .a {
+        display: contents;
+        border: 1px solid red;
+        background-color: lightgrey;
+        padding: 10px;
+        width: 200px;
+    }
+    .b {
+        border: 1px solid blue;
+        background-color: lightblue;
+        padding: 10px;
+    }
+    </style>
+    <body>
+
+        <div align="center">
+        <h1 style="color:rgb(103, 112, 243);">IT Asset Details</h1>
+        <from action="pythonweb.py" method="post" >
+            <img src="C:\Users\vmuthyala\Pictures\belcan.webp" alt="Italian Trulli" style="width:200px;height:60px;"><br><br>
+            <b>Employe Name:</b>
+            <style>
+             ::placeholder {
+                color: blue;
+                opacity: 1; /* Firefox */
+            }
+
+             :-ms-input-placeholder { /* Internet Explorer 10-11 */
+                color: red;
+            }
+
+            ::-ms-input-placeholder { /* Microsoft Edge */
+                color: red;
+            }
+            </style>
+            <input type="text" placeholder="Enter Employe Name :" name="employename"><br><br>
+            <b>Employe ID:</b>
+            <input type="text" placeholder="Enter Employe ID:" name="employeid"><br><br>
+            <b>Select Gender:</b>
+            <input type="radio" name="gender" value="male">
+            Male
+            <input type="radio" name="gender" value="female">
+            Female
+            <input type="radio" name="gender" value="other">
+            Others<br><br>
+            <b>Asset ID:</b>
+            <input type="text" placeholder="Enter Asset ID:" name="assetid">
+            <b>Select System Type:</b>
+            <input type="checkbox" name="desktop" value="desktop">DESKTOP
+            <b>Select Designation</b><br><br>
+            <b>Designation</b>
+            <select name="select">
+                <option value="Associate Engineer">ASSOCIATE ENGINEER</option>
+                <option value="Software Engineer">SOFTWARE ENGINEER</option>
+                <option value="Senior Software Engineer">SENIOR SOFTWARE ENGINEER</option>
+                <option value="Design Engineer">DESIGN ENGINEER</option>
+            </select><br><br>
+            <input type="checkbox" name="laptop" value="laptop">LAPTOP
+            <b>Designation</b>
+            <select name="select">
+                <option value="Associate Engineer">ASSOCIATE ENGINEER</option>
+                <option value="Software Engineer">SOFTWARE ENGINEER</option>
+                <option value="Senior Software Engineer">SENIOR SOFTWARE ENGINEER</option>
+                <option value="Design Engineer">DESIGN ENGINEER</option>
+            </select><br><br>
+            <input type="checkbox" name="clientlaptop" value="client laptop">CLIENT LAPTOP
+            <b>Designation</b>
+            <select name="select">
+                <option value="Associate Engineer">ASSOCIATE ENGINEER</option>
+                <option value="Software Engineer">SOFTWARE ENGINEER</option>
+                <option value="Senior Software Engineer">SENIOR SOFTWARE ENGINEER</option>
+                <option value="Design Engineer">DESIGN ENGINEER</option>
+            </select><br><br>
+            <b>Enter Mobile No:</b>
+            <input type="text" placeholder="Mobile NO:" name="mobilenumber">
+            <b>Select System Type:</b>
+            <input type="checkbox" name="mobile" value="mobile">MOBILE
+            <select name="select">
+                <option value="IME">IME Number</option>
+                <input type="text" placeholder="IME NO:" name="imenumber">
+            </select><br><br>
+            <b>Enter Dongle NO:</b>
+            <input type="text" placeholder="Dongle NO:" name="donglenumber>
+            <b>Select System Type:</b>
+            <input type="checkbox" name="dongle" value="dongle">DONGLE
+            <select name="select">
+                <option value="Date">Date</option>
+                <input type="text" placeholder="Date:" name="date">
+            </select><br><br>
+            <b>Enter Start Date:</b>
+            <input type="text" placeholder="Enter Start Date:" name="startdate"><br><br>
+            <b>Enter End Date:</b>
+            <input type="text" placeholder="Enter End Date:" name="enddate"><br><br>
+            <input type="file" id="MyFile" name="filename">
+            <input type="submit"><br><br>
+            <input type="submit" value="SUBMIT"><br>
+        </from>
+        </div>
+    </body>
+</html>

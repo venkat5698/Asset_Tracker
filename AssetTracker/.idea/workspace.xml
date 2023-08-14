@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6baf53a-b12f-45ff-9736-8893cc205de8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dashboard/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/migrations/0003_alter_maindashboard_s_no_asset_allocation_form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/templates/Assetform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/templates/assetdetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/templates/client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetTracker/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/AssetTracker/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AssetTracker/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/AssetTracker/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/401.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/demo/chart-area-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/assets/demo/chart-area-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/demo/chart-bar-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/assets/demo/chart-bar-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/demo/chart-pie-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/assets/demo/chart-pie-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/demo/datatables-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/assets/demo/datatables-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/img/error-404-monochrome.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/assets/img/error-404-monochrome.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/datatables-simple-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/js/datatables-simple-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/templates/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout-sidenav-light.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout-static.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tables.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2TZy4UuIW4XzURqe2rue4tiNFlj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6baf53a-b12f-45ff-9736-8893cc205de8" name="Changes" comment="" />
+      <created>1691264706948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691264706948</updated>
+    </task>
+    <servers />
+  </component>
+</project>

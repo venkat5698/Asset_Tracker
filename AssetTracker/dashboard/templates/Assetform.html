@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Asset Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+<h3 align="center">Employee Asset Entry Form</h3>
+<div class="container">
+    <form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+        {{ form.as_p }}
+        <div class="col-md-6">
+            <b>Employee_name:</b>
+            <input type="text" class="form-control" placeholder="Enter Employee Name" name="Employee_name"><br><br>
+            <b>Employee_id:</b>
+            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Employee_id"><br><br>
+            <b>Group:</b>
+            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Group"><br><br>
+            <b>Contact_number:</b>
+            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Contact_number"><br><br>
+            <!--            <b>Working_For_Client:</b>-->
+            <!--            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Working_For_Client"><br><br>-->
+            <b>Working_For_Client:</b>
+            yes
+            <input type="radio" name="YES" value="Yes">
+            <br>
+
+            <b>Client_Email_id:</b><b></b>
+
+            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Client_Email_id"><br><br>
+            <b>Client_Laptop:</b>
+            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Client_Laptop"><br><br>
+            <b>Client_Mouse:</b>
+            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Client_Mouse"><br><br>
+            <b>Client_Headphones:</b>
+            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Client_Headphones"><br><br>
+            <b>Client_Computer:</b>
+            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Client_Computer"><br><br>
+            <b>Client_Remarks:</b>
+            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Client_Remarks"><br><br>
+            <b>Employee_Status:</b>
+            <input type="text" class="form-control" placeholder="Enter Employee ID" name="Employee_Status"><br><br>
+            <b>BI_Email_id:</b>
+            <input type="text" class="form-control" placeholder="Enter Asset ID" name="BI_Email_id"><br><br>
+            <b>BI_Laptop:</b>
+            <input type="text" class="form-control" placeholder="Enter Asset ID" name="BI_Laptop"><br><br>
+            <b>BI_Mouse:</b>
+            <input type="text" class="form-control" placeholder="Enter Asset ID" name="BI_Mouse"><br><br>
+            <b>BI_Headphones:</b>
+            <input type="text" class="form-control" placeholder="Enter Asset ID" name="BI_Headphones"><br><br>
+            <b>BI_Computer:</b>
+            <input type="text" class="form-control" placeholder="Enter Asset ID" name="BI_Computer"><br><br>
+            <b>BI_Remarks:</b>
+            <input type="text" class="form-control" placeholder="Enter Asset ID" name="BI_Remarks"><br><br>
+            <div class='text-center mb-2'>
+                <button type="submit" class="btn btn-success" id="sv">save</button>
+            </div>
+            <table>
+                <thead>
+                <tr>
+                    <th>Client_Email_id</th>
+                    <th>Client_Laptop</th>
+                    <th>Client_Mouse</th>
+                    <th>Client_Headphones</th>
+                    <th>Client_Computer</th>
+                    <th>Client_Remarks</th>
+                    <th>Employee_Status</th>
+                    <th>BI_Email_id</th>
+                    <th>BI_Laptop</th>
+                    <th>BI_Mouse</th>
+                    <th>BI_Headphones</th>
+                    <th>BI_Computer</th>
+                    <th>BI_Remarks</th>
+                    <th>Employee_name</th>
+                    <th>Employee_id</th>
+                    <th>Group</th>
+                    <th>Contact_number</th>
+                    <!-- Add more columns as needed -->
+                </tr>
+                </thead>
+                <tbody>
+                {% for type in types %}
+                <tr>
+                    <td>{{ type.Client_Email_id }}</td>
+                    <td>{{ type.Client_Laptop }}</td>
+                    <td>{{ type.Client_Mouse }}</td>
+                    <td>{{ type.Client_Headphones }}</td>
+                    <td>{{ type.Client_Computer }}</td>
+                    <td>{{ type.Client_Remarks }}</td>
+                    <td>{{ type.Employee_Status }}</td>
+                    <td>{{ type.BI_Email_id }}</td>
+                    <td>{{ type.BI_Laptop }}</td>
+                    <td>{{ type.BI_Mouse }}</td>
+                    <td>{{ type.BI_Headphones }}</td>
+                    <td>{{ type.BI_Computer }}</td>
+                    <td>{{ type.BI_Remarks }}</td>
+                    <td>{{ type.Employee_name }}</td>
+                    <td>{{ type.Employee_id }}</td>
+                    <td>{{ type.Group }}</td>
+                    <td>{{ type.Contact_number }}</td>
+                    <!-- Add more columns as needed -->
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </form>
+</div>
+</body>
+
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
